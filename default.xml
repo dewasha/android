@@ -13,6 +13,10 @@
      
   <remote  name="playfulgod"
            fetch="git://github.com/" />
+           
+  <remote  name="ivan19871002"
+           fetch="git://github.com/" />        
+           
 
   <project path="build" name="CyanogenMod/android_build">
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -24,13 +28,8 @@
   <project path="dalvik" name="CyanogenMod/android_dalvik" />
   <project path="development" name="CyanogenMod/android_development" />
   <project path="device/common" name="CyanogenMod/android_device_common" />
-  <project path="device/huawei/ascend" name="playfulgod/android_device_huawei_ascend" />
   <project path="device/huawei/ascend2" name="playfulgod/android_device_huawei_ascend2" />
-  <project path="device/huawei/m835" name="playfulgod/android_device_huawei_m835" />
-  <project path="device/micromax/a70" name="playfulgod/android_device_micromax_a70" />
-  <project path="device/lge/thunderc" name="playfulgod/android_device_lge_thunderc" />
-  <project path="device/motorola/common" name="CyanogenMod/android_device_motorola_common" />
-  <project path="device/motorola/shadow" name="CyanogenMod/android_device_motorola_shadow" />
+  <project path="device/huawei/c8650" name="ivan19871002/android_device_huawei_c8650" />
   <project path="external/alsa-lib" name="CyanogenMod/android_external_alsa-lib" />
   <project path="external/alsa-utils" name="CyanogenMod/android_external_alsa-utils" />
   <project path="external/apache-http" name="CyanogenMod/android_external_apache-http" />
@@ -218,7 +217,7 @@
   <project path="system/vold" name="CyanogenMod/android_system_vold" />
   <project path="system/wlan/ti" name="CyanogenMod/android_system_wlan_ti" />
 
-  <project path="vendor/cyanogen" name="playfulgod/android_vendor_cyanogen" />
+  <project path="vendor/cyanogen" name="ivan19871002/android_vendor_cyanogen" />
   <project path="vendor/qcom/opensource/webkit" name="CyanogenMod/android_vendor_qcom_opensource_webkit" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
   <project path="vendor/tmobile/libs/com.tmobile.themes" name="CyanogenMod/android_vendor_tmobile_libs_com.tmobile.themes" />
@@ -226,7 +225,9 @@
   <project path="vendor/tmobile/themes/Androidian" name="CyanogenMod/android_vendor_tmobile_themes_Androidian" />
   <project path="vendor/tmobile/themes/Cyanbread" name="CyanogenMod/android_vendor_tmobile_themes_Cyanbread" />
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
+  <project path="vendor/huawei/c8650" name="ivan19871002/vendor_huawei_c8650" />
+  
 
-  <project path="android" name="playfulgod/android" />
+  <project path="android" name="ivan19871002/android" />
 
 </manifest>
