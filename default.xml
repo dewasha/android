@@ -227,7 +227,7 @@
   <project path="vendor/tmobile/products/themes" name="CyanogenMod/android_vendor_tmobile_products_themes" />
   <project path="vendor/huawei/c8650" name="ivan19871002/vendor_huawei_c8650" />
   
-  <project path="cnoverlay" name="ivan19871002/android_cnoverlay" />
+  <project path="vendor/cnoverlay" name="ivan19871002/android_cnoverlay" />
   <project path="addon" name="ivan19871002/android_addon" />
   <project path="android" name="ivan19871002/android" />
 
